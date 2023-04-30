@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url();
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 , p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 500px;
+    width: 100%;
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+
+
+.nav-span-paw{
+    border-radius: 30px;
+    background: linear-gradient(270deg, #FA695A 0%, #F83375 100%);
+    width: 84px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-paw{
+    width: 20px;
+}
+
+.nav-profile , .nav-comment{
+    width: 34px;
+}
+
+
+
+
+#lastClickRender{
+    height: 70vh;
+}
+
+#main{
+    height: 70vh;
+}
+
+.endText{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.dog-container{
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    margin: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 15px;
+    position: relative;
+}
+
+.dogInfo-container{
+    margin: 1em;
+    color: #F8F8F8;
+    font-family: 'Poppins';
+}
+
+
+.like-image{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    rotate: -30deg;
+    width: 40%;
+}
+
+
+
+.actions{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.actions > button{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    border: none;
+    background-color: white;
+}
+
+.actions button img{
+    width: 50%;
+}
+
+
